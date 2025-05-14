@@ -1,0 +1,84 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color:#e0f7fa;
+    position: relative;
+  }
+  
+  .left-panel {
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .user-photo {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .right-panel {
+    width: 70%;
+    padding: 40px 20px;
+  }
+  
+  .home-title {
+    text-align: center;
+    background-color: #aed581;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #13111133;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+.btn-primary { background-color: #4db6ac; }   /* Teal: Calm, clean */
+.btn-success { background-color: #81c784; }   /* Green: Positive action */
+.btn-info    { background-color: #64b5f6; }   /* Light blue: Info/Guidance */
+.btn-warning { background-color: #fff176; }   /* Yellow: Warnings/alerts */
+.btn-danger  { background-color: #e57373; }   /* Soft red: Caution */
+.btn-secondary { background-color: #ce93d8; } /* Lavender: Secondary use */
+.btn-light    { background-color: #f0f4c3; }  /* Very light green */
+.btn-calm     { background-color: #b2dfdb; }  /* Calm blue-green */
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00695c;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

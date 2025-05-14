@@ -1,0 +1,87 @@
+.favorites-container {
+  font-family: Arial, sans-serif;
+  background-color: #ccfff5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header full width */
+.header {
+  background-color: #008080;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Content split: left & right */
+.content-section {
+  display: flex;
+  flex: 1;
+}
+
+/* Left Panel (User Info) */
+.left-panel {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border-right: 2px solid #ccc;
+  background-color: #ccfff5;
+}
+
+.user-photo {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.user-info {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Right Panel (Tables) */
+.right-panel {
+  width: 70%;
+  padding: 20px;
+}
+
+/* Back Button */
+.back-button-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+/* Table Styling */
+.table-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.favorites-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.favorites-table th {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+.favorites-table td {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.favorites-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}

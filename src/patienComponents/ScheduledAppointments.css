@@ -1,0 +1,68 @@
+.appointment-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue hospital tone */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.appointment-header {
+  background-color: #0077b6; /* Deep hospital blue */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Main section split into 2 */
+.appointment-section {
+  display: flex;
+  flex: 1;
+}
+
+/* Left Panel - User Profile */
+.left-panel {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  background-color: #d0f0fd; /* Light blue */
+  border-right: 2px solid #ccc;
+}
+
+.user-photo {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.user-info {
+  font-weight: bold;
+  font-size: 16px;
+  color: #005073;
+}
+
+/* Right Panel - Table */
+.right-panel {
+  width: 70%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+/* Table styles */
+.appointment-table .ant-table-thead > tr > th {
+  background-color: #0077b6;
+  color: white;
+}
+
+.appointment-table .ant-table-tbody > tr > td {
+  background-color: #e9f5fb;
+}
+
+.appointment-table .ant-table-tbody > tr:nth-child(even) > td {
+  background-color: #f6fbfe;
+}

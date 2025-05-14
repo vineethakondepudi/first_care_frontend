@@ -1,0 +1,87 @@
+.edit-details-wrapper { 
+  background-color: #e0f7fa;  /* Soft, medical light blue */
+  padding: 20px;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #a3d8f4;  /* Deep teal for a strong hospital feel */
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #003f5c;  /* White text for contrast */
+}
+
+.content-section {
+  display: flex;
+  gap: 40px;
+}
+
+.left-panel {
+  width: 30%;
+  text-align: center;
+}
+
+.user-photo {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details-right {
+  width: 70%;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.details-table td {
+  border: 1px solid #bdbdbd;
+  padding: 12px;
+  background-color: #eeeeee;  /* Light grey for table cells */
+  font-weight: 500;
+}
+
+.details-table input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.back-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.update-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.submit-button {
+  background-color: #6fa8dc; /* hospital theme color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #5b9bd5;
+}
